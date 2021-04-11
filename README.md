@@ -1,3 +1,1 @@
-# READ ME
-
-# Click a Tarot Card 
+# Click a Tarot Card.
