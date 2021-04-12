@@ -1,9 +1,43 @@
 body{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 h1{
   text-align:center;
   color: black;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-image {
+  width: 200px;
+  height: 340px;
+  margin: auto;
+}
+
+.card-name {
+margin: auto;
+color: black
+
+}
+
+.buttons {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#draw {
+  margin: auto;
+  border: 1px solid black;
+  color: purple;
+  padding: 2px;
+  font-size: 13px;
+  width: 4em;
 }
