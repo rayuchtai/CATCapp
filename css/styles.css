@@ -49,3 +49,24 @@ color: black
   font-size: 13px;
   width: 4em;
 }
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#modal-innards {
+  background-color: gray;
+  text-align: center;
+  color: black;
+  height: 350px;
+  width: 550px;
+  border-radius: 10%;
+  margin: 15px auto;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2)
+}
