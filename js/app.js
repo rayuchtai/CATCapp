@@ -25,18 +25,42 @@ $(()=> { //beginning of the winodws on load function
 
         console.log(cards);
 
-        $('#draw').on('click', () => {
+        $('#draw').on('click', () => { //beginning the thing
 
           let index = randomNumber(cards.length)
           let currentCard = cards[index]
 
-          $($cardContainer)
-            .html(
-              `<h3 class="card-name">${currentCard.name}</h3>\
-                  <input type="image" src="imgs/${currentCard.name}.jpg"class="card-image"alt=""/>`
-              )
+          const $modal = $('#modal')
+          let $modalInnards = $('#modal=innards')
 
-          $(".card-image").on('click')
+
+
+          $($cardContainer)
+            .html(`<img src="imgs/card-back.jpg" class="card-back" alt="card-back"/>`)
+
+          $(".card-back").on('click', () => { //flipping the card
+
+            $cardContainer
+            .html(`<h3 class="card-name">${currentCard.name}</h3>\
+            <img src="imgs/card-back.jpg" class="card-back" alt="card-back"/>`)
+
+            $('.card-back')
+            .replaceWith(`<img src="imgs/${currentCard.name}.jpg" class="card-image" alt="" />`)
+
+            $(".card-image").on('click', () => {
+
+            })
+
+          }) //do not delete
+
+
+
+
+
+
+
+
+
 
         }) //do not delete
 
