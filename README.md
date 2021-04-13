@@ -10,19 +10,19 @@
   4. I had noticed that this API did not include images of the R.W. Tarot cards. Therefore, the first thing I did was find all the images of the cards and placed them in a directory, the imgs directory.
   5. At this point, my documents are linked, the basic wireframe has been coded, the API is linked, I had noted the syntax needed to access the information in the API. I began to create a checklist of things that needed to be down in order for this app to reach MVP.
   ##### Checklist:
-    - [ ] Find the Images of the cards.
+    -[x] Find the Images of the cards.
           - Style the images with CSS, one thing that is out the way and not distracting
           - rename the images so they could be called upon with the name of the card. 
           - find the back of the card so the user can flip the card.
           - give the card-back and the card-iomage classes 
-    - [ ] Create a button to 'draw the card'
+    -[x] Create a button to 'draw the card'
           - add the card name
           - add the card information to the modal
           - all have to be done with a click
           - must be done before 'flipping' the card
-    - [ ] When Card-back is clicked
+    -[x] When Card-back is clicked
           - the correct card image is shown with the corresponding card name
-    - [ ] When the card-image is clicked
+    -[x] When the card-image is clicked
           - Modal appears:
              - Name
              - meaning
