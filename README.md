@@ -10,20 +10,18 @@
   4. I had noticed that this API did not include images of the R.W. Tarot cards. Therefore, the first thing I did was find all the images of the cards and placed them in a directory, the imgs directory.
   5. At this point, my documents are linked, the basic wireframe has been coded, the API is linked, I had noted the syntax needed to access the information in the API. I began to create a checklist of things that needed to be down in order for this app to reach MVP.
   ##### Checklist:
-    -[x] Find the Images of the cards.
-          - Style the images with CSS, one thing that is out the way and not distracting
-          - rename the images so they could be called upon with the name of the card. 
-          - find the back of the card so the user can flip the card.
-          - give the card-back and the card-iomage classes 
-    -[x] Create a button to 'draw the card'
-          - add the card name
-          - add the card information to the modal
-          - all have to be done with a click
-          - must be done before 'flipping' the card
-    -[x] When Card-back is clicked
-          - the correct card image is shown with the corresponding card name
-    -[x] When the card-image is clicked
-          - Modal appears:
-             - Name
-             - meaning
-             - description
+- [ ] Create an APP Name 
+- [x] Find the images of the Card Faces.
+- [x] Create the Draw Button
+- [x] Make the card-back clickable to 'flip' it
+- [x] Make the card-image clickable to open a modal
+- [x] Allow modal to change information needed to match the drawn card.
+
+### Putting my Approach to action:
+  1. I find it extremely helpful to handwrite my code with the tags color coded because while writing them by hand helps with understanding syntax and I would have to completely understand what I am handwriting. I, personally, feel that I have a disconnect with my creative side of my brain while typing,I feel a certain permanence while typing, regardless of the backspace.
+  2. I took each point of my short checklist and broke it down even smaller on my sheet of paper. I wrote down a couiple coding ideas before testing them. This slows down my thought process so I do not skip and/or jump a couple steps ahead that can lead to the code breaking which will send me panicking. ]
+  3. For each step I took, I tested it, and took a little break. The little break consists of walking to the kitchen, finding a snack, talking to my dog, checking on the garden, soaking in the sun, etc. before coming back to work on the next step.
+  4. Due to my weakness in CSS, I did CSS alongside coding so I don't work on CSS on the end and become frustrated when something does not line up.
+
+## Spice up the APP:
+  The app so far is pretty plain even with the colors and the different fonts. I am going to add an about, explanation/introduction to Tarot and the history behind this type of deck and why it is so commonly knowna and used. Perhaps whilst I spice up the app, a name for the app will come to me. I would appreciate a pun app name but if not, I can settle with a short and to-the-point name.
