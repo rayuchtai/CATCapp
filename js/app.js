@@ -49,12 +49,10 @@ $(()=> { //beginning of the winodws on load function
 
 
 
-
           $($cardContainer)
             .html(`<img src="imgs/card-back.jpg" class="card-back" alt="card-back"/>`)
 
           $(".card-back").on('click', () => { //flipping the card
-
 
             $cardContainer
             .html(`<h3 class="card-name">${currentCard.name}</h3>\
@@ -63,10 +61,18 @@ $(()=> { //beginning of the winodws on load function
             $('.card-back')
             .replaceWith(`<input type="image" src="imgs/${currentCard.name}.jpg" class="card-image" id="open-modal" alt=""/>`)
 
+            $('#cardName')
+              .html(`<h3 class="card-name">${currentCard.name}</h3>`)
 
+            $('.meaning-text').html(`<p>${currentCard.meaning_up}</p>`)
+            $('.desc-text').html(`<p>${currentCard.desc}</p>`)
+
+            $('.modal-card').replaceWith(`<input type="image" src="imgs/${currentCard.name}.jpg" class="modal-card" alt=""/>`)
 
             $("#open-modal").on('click', () => {
               $('#modal').css('display', 'block')
+
+
               console.log('it is clickable');
             })
 

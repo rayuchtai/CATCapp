@@ -2,24 +2,32 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  background-color: rgb(160, 145, 189);
+  width: 100%;
 }
 
 h1{
   text-align:center;
   color: black;
+  font-family: 'Playball', cursive;
+  margin-bottom: 0em;
 }
 
 .card-container {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   margin: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card-image {
   width: 200px;
   height: 340px;
   margin: auto;
+  border-radius: 5.5%;
 }
 
 .card-back{
@@ -30,7 +38,8 @@ h1{
 }
 
 .card-name {
-margin: auto;
+
+margin: 1em 0em;
 color: black
 
 }
@@ -42,16 +51,27 @@ color: black
   justify-content: center;
 }
 #draw {
+  background-color: #e6dedc;
   margin: auto;
-  border: 1px solid black;
-  color: purple;
-  padding: 2px;
-  font-size: 13px;
+  border: 1px solid #e0cce4;
+  color: #4e4869;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 6.5%;
   width: 4em;
+  font-family: 'Montserrat', sans-serif;
 }
 span {
-  margin: auto;
-  left: 100%;
+  display: flex;
+  justify-content: center;
+}
+#closeBtn {
+  position: absolute;
+  top: 25px;
+  right: 220px;
+  padding: 2px 6px;
+  border-radius: 100%;
+  border: 1px solid pink;
 }
 #modal {
   display: none;
@@ -60,16 +80,65 @@ span {
   left: 0;
   height: 100%;
   width: 100%;
+  padding: 3em;
   z-index: 1;
 }
 
+#cardName > h3{
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
 #modal-innards {
-  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid purple;
   text-align: center;
   color: black;
-  height: 350px;
+  height: 600px;
   width: 550px;
-  border-radius: 10%;
   margin: 15px auto;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2)
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#modal-innards > img {
+  width: 100px;
+  height: 170px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+#modal-innards > .modal-card{
+  width: 150px;
+  height: 255px;
+  margin: 1em 0em;
+}
+
+#modal-innards > h3 {
+  margin: 0;
+}
+
+#modal-innards > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  margin: 0em;
+}
+
+p {
+  margin: 0em;
+  padding-top: 0em;
+  padding: 1.5em;
 }
