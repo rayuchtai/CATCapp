@@ -67,7 +67,7 @@ $(()=> { //beginning of the winodws on load function
             $('.meaning-text').html(`<p>${currentCard.meaning_up}</p>`)
             $('.desc-text').html(`<p>${currentCard.desc}</p>`)
 
-            $('.modal-card').replaceWith(`<input type="image" src="imgs/${currentCard.name}.jpg" class="modal-card" alt=""/>`)
+            $('.modal-card').replaceWith(`<img src="imgs/${currentCard.name}.jpg" class="modal-card" alt=""/>`)
 
             $("#open-modal").on('click', () => {
               $('#modal').css('display', 'block')
