@@ -54,7 +54,7 @@ $(()=> { //beginning of the winodws on load function
           $(".card-back").on('click', () => { //flipping the card
 
             $cardContainer
-            .html(`<h3 class="card-name">${currentCard.name}</h3>\
+            .html(`
             <img src="imgs/card-back.jpg" class="card-back" alt="card-back"/>`)
 
             $('.card-back')
