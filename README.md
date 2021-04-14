@@ -23,6 +23,7 @@
   3. For each step I took, I tested it, and took a little break. The little break consists of walking to the kitchen, finding a snack, talking to my dog, checking on the garden, soaking in the sun, etc. before coming back to work on the next step.
   4. Due to my weakness in CSS, I did CSS alongside coding so I don't work on CSS on the end and become frustrated when something does not line up.
 
+
 ## Unsolved Problems:
   1. How to randomize which card is flipped or not. Tarot cards have different meanings when they are reversed. I wanted to add them into the the modal. However, I couldn't figure out a way to make the cards randomly rotate 180degrees. I am still trying to add that feature but at the moment, I am trying to add background information about the deck that is being used and the history behind the cards and tarot itself.
 

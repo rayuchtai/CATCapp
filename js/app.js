@@ -60,6 +60,7 @@ $(()=> { //beginning of the winodws on load function
             $('.card-back')
             .replaceWith(`<input type="image" src="imgs/${currentCard.name}.jpg" class="card-image" id="open-modal" alt=""/>`)
 
+          //Information for the Modal
             $('#cardName')
               .html(`<h3 class="card-name">${currentCard.name}</h3>`)
 
