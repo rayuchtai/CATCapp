@@ -26,7 +26,7 @@
 
 
 ## Unsolved Problems:
-  1. **SOLVED** How to randomize which card is flipped or not. Tarot cards have different meanings when they are reversed. I wanted to add them into the the modal. However, I couldn't figure out a way to make the cards randomly rotate 180degrees. I am still trying to add that feature but at the moment, I am trying to add background information about the deck that is being used and the history behind the cards and tarot itself.
+  1. **SOLVED!** How to randomize which card is flipped or not. Tarot cards have different meanings when they are reversed. I wanted to add them into the the modal. However, I couldn't figure out a way to make the cards randomly rotate 180degrees. I am still trying to add that feature but at the moment, I am trying to add background information about the deck that is being used and the history behind the cards and tarot itself.
 
 ### Facing Unsolved Problems:
   1. I think the problem is how I am adding the image. It is added before the transformation could stick.
