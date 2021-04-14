@@ -3,15 +3,23 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(160, 145, 189);
+  background-color: rgb(242, 234, 245);
   height: 100%;
 }
 
 h1{
   text-align:center;
   color: black;
-  font-family: 'Playball', cursive;
+  font-size: 45px;
+  font-family: 'Tangerine', cursive;
   margin-bottom: 0em;
+}
+
+#card-reading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .card-container {
@@ -20,7 +28,8 @@ h1{
   flex-direction: column;
   justify-content: center;
   margin: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-family: 'TPlayfair Display', serif;
 }
 
 .card-image {
@@ -69,9 +78,10 @@ span {
   position: absolute;
   top: 10px;
   right: 10px;
-  padding: 2px 6px;
+  padding: 2px 8px;
   border-radius: 100%;
-  border: 1px solid pink;
+  background-color: rgba(254, 151, 168, 0.5);
+  border: 1px solid rgba(254, 151, 168, 0.5);
 }
 #modal {
   display: none;
@@ -97,12 +107,12 @@ span {
   justify-content: center;
   flex-direction: column;
   background-color: white;
-  border: 1px solid purple;
+  border: 1px solid rgb(103, 82, 175);
   text-align: center;
   color: black;
   margin:auto;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 #modal-innards > img {

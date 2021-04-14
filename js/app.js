@@ -1,7 +1,6 @@
 
 
 
-
 $(()=> { //beginning of the winodws on load function
 
   const $cardContainer = $('.card-container')
