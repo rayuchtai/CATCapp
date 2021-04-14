@@ -18,17 +18,23 @@
 - [x] Allow modal to change information needed to match the drawn card.
 
 ### Putting my Approach to action:
-  1. I find it extremely helpful to handwrite my code with the tags color coded because while writing them by hand helps with understanding syntax and I would have to completely understand what I am handwriting. I, personally, feel that I have a disconnect with my creative side of my brain while typing,I feel a certain permanence while typing, regardless of the backspace.
-  2. I took each point of my short checklist and broke it down even smaller on my sheet of paper. I wrote down a couiple coding ideas before testing them. This slows down my thought process so I do not skip and/or jump a couple steps ahead that can lead to the code breaking which will send me panicking. ]
+  1. I find it extremely helpful to hand write my code with the tags color coded because while writing them by hand helps with understanding syntax and I would have to completely understand what I am handwriting. I, personally, feel that I have a disconnect with my creative side of my brain while typing,I feel a certain permanence while typing, regardless of the backspace.
+  2. I took each point of my short checklist and broke it down even smaller on my sheet of paper. I wrote down a couple coding ideas before testing them. This slows down my thought process so I do not skip and/or jump a couple steps ahead that can lead to the code breaking which will send me panicking. ]
   3. For each step I took, I tested it, and took a little break. The little break consists of walking to the kitchen, finding a snack, talking to my dog, checking on the garden, soaking in the sun, etc. before coming back to work on the next step.
   4. Due to my weakness in CSS, I did CSS alongside coding so I don't work on CSS on the end and become frustrated when something does not line up.
-  5. Biggest challenge, facing the inevitable failure of coding. I did baby steps on Saturday and Sunday while slowly moving foward due to that fear of failure. However, i put it into perspective: "Would I rather create a janky code?" or "Fail a project which could lead to failing this course?" After that little revelation, I put it into gear. The fear was still there slowly gripping my brain and fingers. The app is about an interest of mine which helped. 
+  5. Biggest challenge, facing the inevitable failure of coding. I did baby steps on Saturday and Sunday while slowly moving forward due to that fear of failure. However, i put it into perspective: "Would I rather create a janky code?" or "Fail a project which could lead to failing this course?" After that little revelation, I put it into gear. The fear was still there slowly gripping my brain and fingers. The app is about an interest of mine which helped.
 
 
 ## Unsolved Problems:
-  1. How to randomize which card is flipped or not. Tarot cards have different meanings when they are reversed. I wanted to add them into the the modal. However, I couldn't figure out a way to make the cards randomly rotate 180degrees. I am still trying to add that feature but at the moment, I am trying to add background information about the deck that is being used and the history behind the cards and tarot itself.
+  1. **SOLVED** How to randomize which card is flipped or not. Tarot cards have different meanings when they are reversed. I wanted to add them into the the modal. However, I couldn't figure out a way to make the cards randomly rotate 180degrees. I am still trying to add that feature but at the moment, I am trying to add background information about the deck that is being used and the history behind the cards and tarot itself.
+
+### Facing Unsolved Problems:
+  1. I think the problem is how I am adding the image. It is added before the transformation could stick.
 
 ## Spice up the APP:
   1. The app so far is pretty plain even with the colors and the different fonts. I am going to add an about, explanation/introduction to Tarot and the history behind this type of deck and why it is so commonly known and used. Perhaps whilst I spice up the app, a name for the app will come to me. I would appreciate a pun app name but if not, I can settle with a short and to-the-point name.
   2. I'll see if I can add three cards that could be added into the reading.
   3. Usually cards have to be read together to get the answer in response to the question asked by the reader but it will be up to the user. The introduction part of this app will allow the reader to learn this.
+
+##### Side Notes:
+  1. I'm not even kidding, but walking to the kitchen, looking at food I can cook but don't want to, and walking back really helps when it comes to figuring out different ways to solve an Unsolved Problem. May not work, but it was an idea.

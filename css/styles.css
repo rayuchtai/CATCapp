@@ -48,11 +48,20 @@ h1{
   font-family: 'TPlayfair Display', serif;
 }
 
-.card-image {
+.card-imageUp {
   width: 200px;
   height: 340px;
   margin: auto;
   border-radius: 5.5%;
+  /* transform: rotate(-180deg); */
+}
+
+.card-imageRev {
+  width: 200px;
+  height: 340px;
+  margin: auto;
+  border-radius: 5.5%;
+  transform: rotate(-180deg);
 }
 
 .card-back{
