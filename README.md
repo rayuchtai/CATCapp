@@ -22,6 +22,7 @@
   2. I took each point of my short checklist and broke it down even smaller on my sheet of paper. I wrote down a couiple coding ideas before testing them. This slows down my thought process so I do not skip and/or jump a couple steps ahead that can lead to the code breaking which will send me panicking. ]
   3. For each step I took, I tested it, and took a little break. The little break consists of walking to the kitchen, finding a snack, talking to my dog, checking on the garden, soaking in the sun, etc. before coming back to work on the next step.
   4. Due to my weakness in CSS, I did CSS alongside coding so I don't work on CSS on the end and become frustrated when something does not line up.
+  5. Biggest challenge, facing the inevitable failure of coding. I did baby steps on Saturday and Sunday while slowly moving foward due to that fear of failure. However, i put it into perspective: "Would I rather create a janky code?" or "Fail a project which could lead to failing this course?" After that little revelation, I put it into gear. The fear was still there slowly gripping my brain and fingers. The app is about an interest of mine which helped. 
 
 
 ## Unsolved Problems:
