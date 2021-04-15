@@ -37,7 +37,7 @@ h2 {
 .rider > button {
   border: none;
   background: none;
-  width: 400px;
+  width: 100%;
 }
 
 #deck-info{
@@ -304,8 +304,74 @@ p {
   padding: 1.5em;
 }
 
-@media (max-width: 200px) {
+@media (max-width: 983px) {
 
+#tarot {
+  height: auto;
+  width: 100%;
+}
+header {
+  /* margin-top: 50%; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+#deck-info {
+  width: 100%
+}
+
+h1 {
+  display: inline-flex;
+  font-size: 6em;
+}
+
+#one-card-reading {
+  font-size: 2em;
+}
+
+.card-back, .card-imageUp , .card-imageRev {
+  width: 250px;
+  height: 400px;
+}
+
+#draw {
+  font-size: 1.5em;
+}
+
+#modal, #modal-two, #modal-three {
+  top: 25%;
+}
+
+#modal-innards > .modal-card {
+  width: 200px;
+  height: 340px;
+}
+
+.card-name {
+  font-size: 2em;
+}
+
+.card-meaning, .card-desc {
+  font-size: 1.5em;
+}
+
+#closeBtn {
+  font-size: 1.5em;
+}
+
+#inner-modal-two > h3 {
+  font-size: 2em;
+}
+
+#inner-modal-three > h3 {
+  font-size: 2em;
+}
+
+p, li {
+  font-size: 1.5em
+}
 
 }
