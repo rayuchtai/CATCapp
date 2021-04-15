@@ -25,6 +25,11 @@ h2 {
   font-weight:lighter;
   background-color: rgb(242, 234, 245);
 }
+
+#tarot{
+  background-color: rgb(242, 234, 245)
+}
+
 .rider {
   display: flex;
 }
@@ -297,4 +302,10 @@ p {
   margin: 0em;
   padding-top: 0em;
   padding: 1.5em;
+}
+
+@media (max-width: 200px) {
+
+
+
 }
