@@ -314,18 +314,12 @@ p {
 @media screen and (max-width: 980px) {
 
   body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
     margin-top: 50%;
   }
 
 #tarot {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+
   height: max-height;
   width: 100%;
 
@@ -341,21 +335,28 @@ header {
 
 #deck-info {
   width: 100%;
-  font-size: 1em;
 }
 #deck-info:hover {
   text-shadow: none;
 }
 h1 {
   display: inline-flex;
-  font-size: 6em;
+  font-size: 8em;
 }
-
+.one-card > button{
+  width: 100%
+}
 #one-card-reading {
-  font-size: 2em;
+  width: 100%;
+  font-size: 3em;
 }
 #one-card-reading:hover{
   text-shadow:  none;
+}
+
+.the-card-reading {
+  width: 100%;
+  margin: auto;
 }
 .card-back, .card-imageUp , .card-imageRev {
   width: 100%;
