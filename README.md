@@ -10,12 +10,12 @@
   4. I had noticed that this API did not include images of the R.W. Tarot cards. Therefore, the first thing I did was find all the images of the cards and placed them in a directory, the imgs directory.
   5. At this point, my documents are linked, the basic wireframe has been coded, the API is linked, I had noted the syntax needed to access the information in the API. I began to create a checklist of things that needed to be down in order for this app to reach MVP.
   ##### Checklist:
-- [ ] Create an APP Name
+- [x] Create an APP Name
 - [x] Find the images of the Card Faces.
 - [x] Create the Draw Button
 - [x] Make the card-back clickable to 'flip' it
 - [x] Make the card-image clickable to open a modal
-- [x] Allow modal to change information needed to match the drawn card.
+- [x] Allow modal to change information needed to match the drawn card
 
 ### Putting my Approach to action:
   1. I find it extremely helpful to hand write my code with the tags color coded because while writing them by hand helps with understanding syntax and I would have to completely understand what I am handwriting. I, personally, feel that I have a disconnect with my creative side of my brain while typing,I feel a certain permanence while typing, regardless of the backspace.
@@ -28,9 +28,6 @@
 ## Unsolved Problems:
   1. **SOLVED!** How to randomize which card is flipped or not. Tarot cards have different meanings when they are reversed. I wanted to add them into the the modal. However, I couldn't figure out a way to make the cards randomly rotate 180degrees. I am still trying to add that feature but at the moment, I am trying to add background information about the deck that is being used and the history behind the cards and tarot itself.
 
-### Facing Unsolved Problems:
-  1. I think the problem is how I am adding the image. It is added before the transformation could stick.
-
 ## Spice up the APP:
   1. The app so far is pretty plain even with the colors and the different fonts. I am going to add an about, explanation/introduction to Tarot and the history behind this type of deck and why it is so commonly known and used. Perhaps whilst I spice up the app, a name for the app will come to me. I would appreciate a pun app name but if not, I can settle with a short and to-the-point name.
   2. I'll see if I can add three cards that could be added into the reading.
@@ -38,3 +35,4 @@
 
 ##### Side Notes:
   1. I'm not even kidding, but walking to the kitchen, looking at food I can cook but don't want to, and walking back really helps when it comes to figuring out different ways to solve an Unsolved Problem. May not work, but it was an idea.
+  2. The API I am using has a couple misspelled words.

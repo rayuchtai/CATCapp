@@ -10,7 +10,23 @@ $(()=> { //beginning of the winodws on load function
     return randomNum
   }
 
+  //Information about the tyope of deck: Rider Waite
+  $('#deck-info').on('click',() => {
+    $('#modal-two').css('display', 'block')
+  })
 
+  $('#inner-modal-two > button').on('click', () => {
+    $('#modal-two').css('display', 'none')
+  })
+
+  //Information about a One Card reading
+  $('#one-card-reading').on('click', () => {
+    $('#modal-three').css('display', 'block')
+  })
+
+  $('#close-one').on('click', () => {
+    $('#modal-three').css('display', 'none')
+  })
 
   let cards = []
 
