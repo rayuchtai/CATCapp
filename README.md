@@ -1,5 +1,12 @@
 # R.W. Reading
 
+##### https://rider-waite-tarot-simple-app.netlify.app/
+
+## Technologies used:
+  - HTML, CSS, Javascript, and JQuery.
+
+
+
 ## Why this type of app?
   I have a couple of tarot decks. I was already interested in the subject. My decks are not Rider Waite Tarot Deck. My tarot decks are based of the Arthurian Legends and the other is based on Hermeticism. Rider Waite's Deck is a very common and mostly known deck. It seemed natural to create an app based off of my interest of tarot.
 
@@ -16,6 +23,10 @@
 - [x] Make the card-back clickable to 'flip' it
 - [x] Make the card-image clickable to open a modal
 - [x] Allow modal to change information needed to match the drawn card
+
+## Forseen Challenges:
+  1. Making the app responsive. It involves CSS and CSS is where I am weakest.
+  2. Anything CSS is where I am the most hesitant.
 
 ### Putting my Approach to action:
   1. I find it extremely helpful to hand write my code with the tags color coded because while writing them by hand helps with understanding syntax and I would have to completely understand what I am handwriting. I, personally, feel that I have a disconnect with my creative side of my brain while typing,I feel a certain permanence while typing, regardless of the backspace.
